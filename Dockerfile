@@ -9,9 +9,9 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 WORKDIR /app
-COPY app.py .
+COPY . .
 
-CMD [ "python3", "./app.py" ]
+CMD [ "python3", "./2app.py" ]
 
 # expose port
 EXPOSE 5000
