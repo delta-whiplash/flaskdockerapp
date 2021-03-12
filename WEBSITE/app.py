@@ -49,4 +49,4 @@ def page_404(error):
 
 if __name__ == '__main__':
     app.secret_key = '2d9-E2.)f&é,A$p@fpa+zSU03êû9_'
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
